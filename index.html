@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1 id="title">Friends Survey</h1>
+<p id="description">Thank you for taking the time to complete this survey!</p>
+<img src="https://uniathenaprods3.uniathena.com/s3fs-public/insights-article/seriesreview-e2-80-9cfriends-e2-80-9d_0.jpg" alt="friends>
+  <form id="survey-form">
+<form id="survey-form">
+    <fieldset>
+        <label id="name-label">Name<input type=text id="name" required placeholder="Regina Phalange"/></label>
+        <label id="email-label">Email<input type="email" id="email" required placeholder="regina.p@google.com"/></label>
+        <label id="number-label">Age<input type="number" id="number" placeholder="30" required min="12" max="120"/></label>
+    </fieldset>
+    <fieldset>
+        <label>Who is your favourite character?
+            <select id="dropdown">
+                <option value="">(select one)</option>
+                <option value="1">Rachel</option>
+                <option value="2">Ross</option>
+                <option value="3">Monica</option>
+                <option value="4">Chandler</option>
+                <option value="5">Phoebe</option>
+                <option value="6">Joey</option>
+            </select>
+        </label>
+    </fieldset>
+    <fieldset>
+        <p class="inline">Were Ross and Rachel on a break?</p>
+        <label for="break-yes"><input id="break-yes" type="radio" name="break" value="break-yes">Yes</label>
+        <label for="break-no"><input id="break-no" type="radio" name="break" value="break-no">No</label>
+    </fieldset>
+    <fieldset>
+        <p class="inline">Select your favourite season/s</p>
+        <label>1<input type="checkbox" value="1"</label>
+        <label>2<input type="checkbox" value="2"></label>
+        <label>3<input type="checkbox" value="3"></label>
+        <label>4<input type="checkbox" value="4"></label>
+        <label>5<input type="checkbox" value="5"></label>
+        <label>6<input type="checkbox" value="6"></label>
+        <label>7<input type="checkbox" value="7"></label>
+        <label>8<input type="checkbox" value="8"></label>
+        <label>9<input type="checkbox" value="9"></label>
+        <label>10<input type="checkbox" value="10"></label>
+    </fieldset>
+    <fieldset>
+        <label for="comments">Any additional comments?
+            <textarea id="comments" name="comments" placeholder="Ross is the funniest because...""></textarea>
+        </label>
+    </fieldset>
+    <input id="submit" type="submit" value="Submit"/>
+</form>
+</body>
+</html>
